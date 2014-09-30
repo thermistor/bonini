@@ -12,7 +12,6 @@ class Roadmap < Mustache
     @iteration_length = 1 # TODO: get from API via project attributes
   end
 
-  # accepted this iteration
   def shipped
     get_stories_as_json "type:release accepted_after:#{start_of_iteration}"
   end

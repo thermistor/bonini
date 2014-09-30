@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift(File.expand_path('../lib', __FILE__))
 
-require 'yaml'
 require 'roadmap'
+require 'yaml'
 
 task :environment do
   env_file = File.expand_path('../config.yml', __FILE__)
