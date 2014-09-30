@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    multipart-post (2.0.0)
     mustache (0.99.6)
     rake (10.3.2)
 
@@ -8,5 +11,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday
   mustache
   rake
