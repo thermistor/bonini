@@ -6,18 +6,19 @@ This project allows you to generate a high-level project roadmap for stakeholder
 
 * Organize the work done in an iteration into one or more releases
 * You must use the *Release* story type
-* Releases should have descriptions describing a high-level feature or set of features. You can use Markdown in the descriptions.
+* Releases should have descriptions describing a high-level feature or set of features
+* Use Markdown in the story description for formatting
 
 ## Installation
 
 1. Clone the repo.
 1. Copy the config and add your Pivotal API Token and project id:
 
-    cp config.yml-example config.yml
+    `cp config.yml-example config.yml`
 
   Your Pivotal API Token can be found on [your profile page](https://www.pivotaltracker.com/profile). The project id can be found in the url of the Pivotal project.
 1. Edit the `roadmap.mustache` template to match your needs.
-
+1. `bundle install`
 
 ## Usage
 
