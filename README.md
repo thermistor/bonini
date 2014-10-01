@@ -1,9 +1,10 @@
-# Pivotal Roadmap Generator
+# Bonini, generate a roadmap from Pivotal
 
-This project allows you to generate a high-level project roadmap for stakeholders from your Pivotal Tracker project. Stakeholders outside of engineering may not be able to get a lot of value out of looking at the detail provided It requires that you follow a few conventions in how you use Pivotal Tracker.
+This project allows you to generate a high-level project roadmap for stakeholders from a Pivotal Tracker project. Stakeholders outside of engineering may not be able to get much value out of looking at the detail normally provided by Pivotal Tracker. Bonini's method is to generate a roadmap from just the Release stories and their descriptions. It does require you to use Pivotal in a particular way.
 
 ### Required conventions
 
+* Organize the work done in an iteration into one or more releases
 * You must use the *Release* story type
 * Releases should have descriptions describing a high-level feature or set of features. You can use Markdown in the descriptions.
 
